@@ -1,0 +1,1134 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/*大屏幕*/
+.head_photo_big{
+
+    height: 905px;
+    background: url('../img/飞机大图.jpg') no-repeat center;
+    background-size: 100% 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+}
+.head_photo_big_nav_box{
+    width: 300px;
+    height: 905px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.head_photo_big_nav{
+    width: 300px;
+    height: 905px;
+    background:#f2f2f2;
+    position: fixed;
+    z-index: 999;
+    /*display: none;*/
+    /*position: absolute;*/
+    /*top: 0px;*/
+    /*right: -300px;*/
+    overflow: hidden;
+
+}
+.head_photo_big_nav_head{
+    width: 300px;
+    height: 100px;
+    background: #f2f2f2;
+}
+.head_photo_big_nav_head i{
+    display: block;
+    font-size: 22px;
+    line-height: 100px;
+    float: right;
+    margin-right: 50px;
+
+}
+.head_photo_big_nav_bottom{
+    width: 300px;
+    height: 300px;
+    background: #f2f2f2;
+}
+.head_photo_big_nav_bottom li a{
+    display: block;
+    width: 300px;
+    height: 50px;
+    background: #f2f2f2;
+    border-bottom: 1px solid#b0b0b0;
+    font-size: 12px;
+    line-height: 50px;
+    padding-left: 30px;
+    color: #a5a5a5;
+}
+.head_photo_big_nav_bottom li a:hover{
+    color: black;
+    background: #a5a5a5;
+}
+.head_photo_wz_box{
+    width: 100%;
+    height: 520px;
+}
+.head_photo_wz_head{
+    width: 100%;
+    height: 64px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.head_photo_wz_head_wz1{
+    width: 119px;
+    height: 27px;
+    font-size: 26px;
+    color: #ffffff;
+    position: absolute;
+    top:12px;
+
+}
+
+.head_photo_wz_head_wz2{
+    width: 50px;
+    height: 50px;
+    /*background: #b3d4fc;*/
+    font-size: 26px;
+    color: #ffffff;
+    position: absolute;
+    right: 0px;
+    top:0px;
+    padding-left: 12px;
+    padding-top: 6px;
+    /*padding-top: 12px;*/
+}
+.head_photo_wz_head_wz2:hover{
+   color: #595552;
+}
+.head_photo_wz1{
+    width: 100%;
+    height: 110px;
+    /*background: #b3d4fc;*/
+    position: absolute;
+    top: 386px;
+    color: #ffffff;
+    font-size: 65px;
+    text-align: center;
+    line-height: 110px;
+}
+.head_photo_wz2{
+    width: 100%;
+    height: 24px;
+    /*background: #0ff31a;*/
+    position: absolute;
+    top: 496px;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+
+}
+/*.big_model_introduce_box{*/
+    /*width: 100%;*/
+    /*height: 767px;*/
+/*}*/
+.big_model_introduce{
+    width: 100%;
+    /*height: 767px;*/
+    margin: auto;
+    /*background: #ffc299;*/
+    /*padding-left: 100px;*/
+    /*padding-right: 100px;*/
+}
+.big_model_introduce li:nth-child(1){
+    height: 149px;
+    /*background: #ffac32;*/
+    padding-top: 99px;
+}
+.big_model_introduce1_nav_box{
+    width: 100%;
+    height: 50px;
+    /*background: #34d179;*/
+}
+.big_model_introduce1_nav_wz1{
+    width: 88px;
+    height: 29px;
+    /*background: #b0b0b0;*/
+    color: #202020;
+    font-size: 20px;
+}
+.big_model_introduce1_nav_wz2{
+    width: 88px;
+    height: 19px;
+    /*background: #83c44e;*/
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.big_model_introduce1{
+    /*height: 285px;*/
+    /*background: #0ff31a;*/
+    border: 12px solid#ffffff;
+    position: relative;
+}
+.big_model_introduce1_photo{
+    width: 100%;
+    /*height: 199px;*/
+    /*background: #2bd171;*/
+    position: absolute;
+    left: 0;
+}
+.big_model_introduce1_photo_bottom_wz_box{
+    width: 100%;
+    height: 60px;
+    /*background: #b3d4fc;*/
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    padding-left: 12px;
+}
+.big_model_introduce1_photo_bottom_wz_box span{
+ display: block;
+    font-size: 12px;
+}
+.big_model_introduce1_photo_bottom_wz_box span:nth-child(1){
+    color: black;
+}
+.big_model_introduce1_photo_bottom_wz_box span:nth-child(2){
+    color:#b0b0b0;
+}
+.big_model_introduce1_photo:hover{
+    transition: all 0.8s;
+    transform: scaleX(1.05);
+}
+.big_model_introduce1_photo a{
+    display: block;
+    width: 325px;
+    height: 199px;
+}
+.big_model_introduce1_photo1{
+    background: url('../img/飞机1.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.big_model_introduce1_photo2{
+    background: url('../img/飞机2.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.big_model_introduce1_photo3{
+    background: url('../img/飞机3.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.big_model_introduce1_photo4{
+    background: url('../img/飞机4.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.big_model_introduce1_photo5{
+    background: url('../img/飞机5.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.big_model_introduce1_photo6{
+    background: url('../img/飞机6.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.big_news{
+    /*height: 694px;*/
+    background: #f2f2f2;
+}
+.big_news_box{
+    width: 100%;
+    margin: 0 auto;
+    height: 694px;
+    /*background: #83c44e;*/
+    /*padding-left: 100px;*/
+    /*padding-right: 100px;*/
+}
+.big_news_box li:nth-child(1){
+    height: 149px;
+    /*background: #ffac32;*/
+    padding-top: 99px;
+}
+.big_news_nav_box{
+    width: 100%;
+    height: 50px;
+    /*background: #34d179;*/
+}
+.big_news_nav_wz1{
+    width: 88px;
+    height: 29px;
+    /*background: #b0b0b0;*/
+    /*color: #202020;*/
+    font-size: 20px;
+}
+.big_news_nav_wz2{
+    width: 88px;
+    height: 19px;
+    /*background: #83c44e;*/
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.big_news_photo{
+    height: 421px;
+    background: #ffffff;
+    position: relative;
+}
+
+.big_news_photo_photo{
+    width: 100%;
+    height: 235px;
+    background: #b0b0b0;
+    position: absolute;
+    left: 0px;
+
+}
+.big_news_photo_photo_photo_photo{
+    display: block;
+    width: 100%;
+    height: 235px;
+    position: absolute;
+    left: 0px;
+    z-index: 999;
+}
+.big_news_photo_photo_photo{
+    width: 100%;
+    height: 235px;
+    background: rgba(85,85,85,0.6);
+    position: absolute;
+    left: 0px;
+    z-index: 998;
+    display: none;
+    text-align: center;
+    line-height: 235px;
+
+}
+.icon-magnifier{
+    font-size: 26px;
+    color: black;
+}
+.big_news_photo:hover .big_news_photo_photo_photo{
+    transition: all 1s;
+    display: block;
+}
+.big_news_photo:hover  .big_news_photo_photo_wz1{
+    transition: all 0.4s;
+    color: #0070c9;
+    border-bottom: 1px solid#665e57;
+}
+
+.big_news_photo:hover{
+    transition: all 0.8s;
+    transform: translateY(-2px);
+}
+.big_news_box a{
+    display: block;
+    width: 337px;
+    height: 235px;
+}
+.big_news_photo_photo1{
+
+    background: url('../img/新闻1.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.big_news_photo_photo2{
+    background: url('../img/新闻2.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.big_news_photo_photo3{
+    background: url('../img/新闻3.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.big_news_photo_photo_wz_box{
+    width: 100%;
+    height: 160px;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.big_news_photo_photo_wz1{
+    width: 100%;
+    height: 63px;
+    background: #ffffff;
+    font-size: 12px;
+    line-height: 63px;
+    border-bottom: 1px solid#ededed;
+}
+/*.big_news_photo_photo_wz1:hover{*/
+    /*transition: all 0.4s;*/
+    /*color: #0070c9;*/
+    /*border-bottom: 1px solid#665e57;*/
+/*}*/
+.big_news_photo_photo_wz2{
+    width: 100%;
+    height: 97px;
+    background: #ffffff;
+    font-size: 10px;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.big_news_photo_photo_wz2 p{
+    line-height: 20px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+}
+/*注册蓝开始*/
+.Testing_box{
+    width: 100%;
+    height: 183px;
+    /*background: #ffac32;*/
+    /*padding-top: 60px;*/
+    padding-left: 160px;
+    padding-right: 160px;
+}
+.Testing_in_box{
+    width: 100%;
+    height: 63px;
+    /*background: #41c2ff;*/
+
+}
+.Testing_in_wz_box{
+    height: 63px;
+    /*background: #34d179;*/
+    border-right: 1px solid#f4f4f4;
+}
+.Testing_in_wz_box:hover{
+    transition: all 0.4s;
+    transform: translateY(-4px);
+}
+.Testing_in_wz1{
+    width: 116px;
+    height: 40px;
+    /*background: #83c44e;*/
+    margin: 0 auto;
+    font-size: 22px;
+    color:#0072e5;
+    text-align: center;
+    line-height: 40px;
+
+}
+.Testing_in_wz2{
+    width: 116px;
+    height: 20px;
+    /*background: #2196f3;*/
+    margin: 0 auto;
+    font-size: 12px;
+    color: #adadad;
+    text-align: center;
+    line-height: 20px;
+
+}
+/*注册栏结束*/
+/*飞机开始*/
+.piloting_photo_box{
+    width: 100%;
+    height: 602px;
+    background: #127ee2;
+    position: relative;
+}
+.piloting_photo1{
+    width: 833px;
+    height: 402px;
+    /*background: #83c44e;*/
+    position: absolute;
+    left: 112px;
+    top:120px;
+    background: url('../img/大飞机4.jpg') no-repeat center;
+    background-size: 100% 100%;
+
+}
+.piloting_photo_wz{
+    width: 595px;
+    height: 242px;
+    background: #ffffff;
+    z-index: 999;
+    position: absolute;
+    left: 624px;
+    top:201px;
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+.piloting_photo_wz_wz1{
+    width: 535px;
+    height: 48px;
+    /*background: #2196f3;*/
+    font-size: 22px;
+    color:#6c8df7;
+    line-height: 48px;
+}
+.piloting_photo_wz_wz2{
+    width: 535px;
+    height: 26px;
+    /*background: #b0b0b0;*/
+    font-size: 12px;
+    color:#6c8df7;
+    line-height: 26px;
+}
+.piloting_photo_wz_wz3{
+    width: 535px;
+    height: 50px;
+    /*background: #ffac32;*/
+    font-size: 12px;
+    color:#6c8df7;
+}
+.piloting_photo_wz_wz4_box{
+    width: 535px;
+    height: 38px;
+    /*background: #83c44e;*/
+}
+.piloting_photo_wz_wz4{
+    /*display: block;    */
+    width: 186px;
+    height: 38px;
+    /*background: #665e57;*/
+    border-radius: 19px;
+    border: 1px solid#6c8df7;
+    color:#6c8df7;
+    font-size: 12px;
+    text-align: center;
+    line-height: 38px;
+}
+.piloting_photo_wz_wz4:hover{
+    color: #ffffff;
+    background: #0070c9;
+}
+/*飞机结束*/
+/*技术团队开始*/
+.technology_team_box{
+    width: 100%;
+    height: 770px;
+    /*background: #34d179;*/
+    padding-top: 120px;
+    /*position: relative;*/
+    /*padding-left: 112px;*/
+    /*padding-right: 112px;*/
+    overflow: hidden;
+
+}
+
+.technology_team_box_head{
+    width:100%;
+    height: 50px;
+    /*background: #665e57;*/
+    position: relative;
+}
+.team_button_box{
+    width: 200px;
+    height: 50px;
+    /*background: #0070c9;*/
+    position: absolute;
+    top: 0;
+    right:500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+
+.technology_team_box_head_wz1{
+    width: 88px;
+    height: 30px;
+    /*background: #ffac32;*/
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: #202020;
+}
+.technology_team_box_head_wz2{
+    width: 88px;
+    height: 20px;
+    /*background: #0070c9;*/
+    margin: auto;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    color:#b0b0b0;
+}
+.technology_team_in_box_box{
+    width: 1054px;
+    height: 350px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.technology_team_in_box{
+    width: 1054px;
+    height: 350px;
+    /*background: #ffac32;*/
+    /*margin: 0 auto;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.team_hide{
+    width: 1054px;
+    height: 350px;
+    /*margin: 0 auto;*/
+    /*background: #ffac32;*/
+
+    position: absolute;
+
+}
+.technology_team_in_box_left{
+    width: 44px;
+    height: 350px;
+    /*background: #b0b0b0;*/
+    z-index: 999;
+    position: relative;
+
+}
+.technology_team_in_photo{
+    width: 322px;
+    height: 289px;
+    /*background: #665e57;*/
+}
+.technology_team_in_box_right{
+    width: 44px;
+    height: 350px;
+    /*background: #b0b0b0;*/
+    z-index: 999;
+    position: relative;
+}
+.technology_team_in_photo_box{
+    width: 100%;
+    height: 164px;
+    /*background: #0070c9;*/
+}
+.technology_team_in_photo1{
+    width: 164px;
+    height: 164px;
+    /*background: #34d179;*/
+    margin: 0 auto;
+    border: 1px solid#cccccc;
+
+}
+.team_photo1{
+    width: 162px;
+    height: 162px;
+    /*background: #41c2ff;*/
+    border: 6px solid#ffffff;
+    background: url('../img/人物1.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.team_photo2{
+    width: 162px;
+    height: 162px;
+    /*background: #41c2ff;*/
+    border: 6px solid#ffffff;
+    background: url('../img/人物2.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.team_photo3{
+    width: 162px;
+    height: 162px;
+    /*background: #41c2ff;*/
+    border: 6px solid#ffffff;
+    background: url('../img/人物3.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.technology_team_in_bottom_wz1_box{
+    width: 100%;
+    height: 55px;
+    /*background: #ff4045;*/
+    position: relative;
+}
+.technology_team_in_bottom_wz1_in_box{
+    width: 100%;
+    height: 25px;
+    /*background: #ffac32;*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding-left: 96px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.technology_team_in_bottom_wz1_in_left{
+    width: 74px;
+    height: 25px;
+    /*background: #41c2ff;*/
+    font-size: 16px;
+    color: #272700;
+
+}
+.technology_team_in_bottom_wz1_in_right{
+    width: 60px;
+    height: 25px;
+    /*background: #2bd171;*/
+    font-size: 12px;
+    color:#888888;
+    line-height: 25px;
+
+}
+.technology_team_photo_bottom_box{
+    width: 100%;
+    height: 60px;
+    /*background: #2bd171;*/
+    position: relative;
+}
+.technology_team_photo_bottom_box_box{
+    width: 100%;
+    height: 50px;
+    /*background: #41c2ff;*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    color: #808080;
+}
+.technology_team_in_box_left_button{
+    width: 32px;
+    height: 32px;
+    background: #d1d1d1;
+    position: absolute;
+    right: 34px;
+    bottom: 0;
+    text-align: center;
+    line-height: 32px;
+    font-size: 20px;
+    color: #f2f2f2;
+
+}
+.technology_team_in_box_right_button{
+    width: 32px;
+    height: 32px;
+    background: #d1d1d1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    line-height: 32px;
+    font-size: 20px;
+    color: #f2f2f2;
+}
+.technology_team_bottom_dian{
+    width: 100%;
+    height: 12px;
+    /*background: #41c2ff;*/
+}
+.technology_team_bottom_dian_box{
+    width: 20px;
+    height: 12px;
+    /*background: #ff4045;*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.technology_team_bottom_dian .technology_team_bottom_dian_box .hot{
+    background: #665e57;
+}
+.technology_team_bottom_dian2{
+    width: 8px;
+    height: 8px;
+    border: 1px solid#665e57;
+    border-radius: 50%;
+    background: #ffffff;
+}
+.technology_team_bottom_bottom_box{
+    width: 100%;
+    height: 56px;
+    padding-top: 18px;
+    /*background: #ffac32;*/
+}
+.technology_team_bottom_bottom{
+    width: 138px;
+    height: 38px;
+    /*background: #0070c9;*/
+    margin: 0 auto;
+    text-align: center;
+    line-height: 38px;
+    color:#b0b0b0;
+    border: 1px solid#b0b0b0;
+}
+.technology_team_bottom_bottom:hover{
+    color:black;
+    border: 1px solid#202020;
+}
+/*技术团队结束*/
+/*联系我们开始*/
+.contact_big_box{
+    width: 100%;
+    height: 552px;
+    background: #f2f2f2;
+    overflow: hidden;
+}
+.contact_big_main_box{
+    width: 1054px;
+    height: 352px;
+    background: #f2f2f2;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.contact_big_main_nav{
+    width: 100%;
+    height: 90px;
+    background: #f2f2f2;
+    border-bottom: 2px solid#e2e2e2;
+    position: relative;
+}
+.contact_big_main_nav_left{
+    width: 50%;
+    height: 50px;
+    background: #f2f2f2;
+}
+.contact_big_main_nav_left span{
+    display: block;
+}
+.contact_big_main_nav_left span:nth-child(1){
+    font-size: 20px;
+    color: #693333;
+}
+.contact_big_main_nav_left span:nth-child(2){
+    font-size: 10px;
+    color:#9999a4;
+}
+.contact_big_main_nav_right{
+    width: 50%;
+    height: 30px;
+    background: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    top:30px
+
+}
+.contact_big_main_nav_right li{
+    width: 24px;
+    height: 30px;
+    background: #f2f2f2;
+    font-size: 22px;
+
+}
+.contact_big_bottom_box{
+    width: 100%;
+    height: 260px;
+    background: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.contact_big_bottom_wz1_box{
+    width: 25%;
+    height: 128px;
+    background: #f2f2f2;
+    margin-top: 50px;
+    color:#9999a4;
+}
+.contact_big_bottom_wz2_box{
+    width: 25%;
+    height: 128px;
+    background: #f2f2f2;
+    margin-top: 50px;
+    padding-top: 32px;
+    color:#9999a4;
+}
+.contact_big_bottom_wz1_box span{
+    display: block;
+    line-height: 32px;
+    font-size: 12px;
+}
+.contact_big_bottom_wz1_box span:nth-child(1){
+    font-size: 16px;
+    color: black;
+}
+.contact_big_bottom_wz2_box span{
+    display: block;
+    line-height: 32px;
+    font-size: 12px;
+}
+.contact_big_bottom_right_box{
+    width: 50%;
+    height: 260px;
+    background: #f2f2f2;
+    overflow: hidden;
+}
+.contact_big_bottom_right_wz_top_box{
+    width: 100%;
+    height: 138px;
+    background: #f2f2f2;
+    margin-top: 50px;
+}
+.user{
+    width: 260px;
+    height: 30px;
+    background: #f2f2f2;
+    font-size: 12px;
+    color:#b0b0b0;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid#e2e2e2;
+    outline: none;
+}
+.contact_big_bottom_right_wz_top_button{
+    width: 100px;
+    height: 32px;
+    background: #595959;
+    margin-top: 23px;
+    color: #e5ffff;
+    text-align: center;
+    line-height: 32px;
+
+}
+.contact_big_bottom_right_wz_top_button:hover{
+    background: rgba(89,89,89,0.4);
+}
+/*联系我们结束*/
+/*小屏幕导航开始*/
+.small_nav{
+    width: 100%;
+    height: 60px;
+    background: #202020;
+    position: relative;
+}
+.small_nav_left{
+    width: 80px;
+    height: 100%;
+    /*background: #ff4045;*/
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    line-height: 60px;
+    color: #f2f2f2;
+    font-size: 14px;
+}
+.small_nav_left:hover{
+    color: #ffffff;
+}
+.small_nav_in{
+    width: 100px;
+    height: 100%;
+    /*background: #ffac32;*/
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 23px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+}
+.small_nav_right{
+    width: 80px;
+    height: 100%;
+    /*background: #ffc299;*/
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 60px;
+}
+.big_model_big_photo{
+    width: 100%;
+    /*height: 365px;*/
+    /*background: #83c44e;*/
+    background: url('../img/飞机大图2.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+
+/*小屏幕导航结束*/
+/*大屏幕结束*/
+/*响应式*/
+/*<768px*/
+@media screen and (max-width: 768px){
+    .head_photo_big{
+        height: 150px;
+    }
+    .head_photo_wz_head{
+        display: none;
+    }
+    .head_photo_wz_box{
+        display: none;
+    }
+    .small_nav{
+        display: block;
+    }
+    .big_model_introduce1{
+        height: 384px;
+    }
+    .big_model_introduce1_photo{
+        height: 300px;
+    }
+    .big_model_big_photo{
+        height: 178px;
+    }
+    .big_model_introduce{
+        height: 2453px;
+    }
+    .big_news_photo_photo_wz1{
+        padding-left: 30px;
+    }
+    .big_news{
+        height: 1413px;
+    }
+    .Testing_box{
+        padding-top: 30px;
+    }
+}
+/*>=768*/
+@media screen and (min-width: 768px){
+    .head_photo_big{
+        height: 150px;
+    }
+    .head_photo_wz_head{
+        display: none;
+    }
+    .head_photo_wz_box{
+        display: none;
+    }
+    .small_nav{
+        display: block;
+    }
+    .big_model_introduce1{
+        height: 384px;
+    }
+    .big_model_introduce1_photo{
+        height: 300px;
+    }
+    .big_model_big_photo{
+        height: 200px;
+    }
+    .big_model_introduce{
+        height: 2453px;
+    }
+    .big_news_photo_photo_wz1{
+        padding-left: 30px;
+    }
+    .big_news{
+        height: 1413px;
+    }
+
+    .Testing_box{
+        padding-top: 30px;
+    }
+}
+/*>=992px*/
+@media screen and (min-width: 1024px){
+    .head_photo_big{
+        height: 847px;
+    }
+    .head_photo_wz_head{
+        display: block;
+    }
+    .head_photo_wz_box{
+        display: block;
+    }
+    .small_nav{
+        display: none;
+    }
+    .big_model_introduce1{
+        height: 285px;
+    }
+    .big_model_introduce1_photo{
+        height: 199px;
+    }
+    .big_model_big_photo{
+        height: 365px;
+    }
+    .big_model_introduce{
+        height: 767px;
+    }
+    .big_model_introduce{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .big_news_box{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .big_news_photo_photo_wz1{
+        padding-left: 30px;
+    }
+    .big_news_photo1{
+        border-right: 12px solid#f2f2f2;
+    }
+    .big_news_photo2{
+        border-right: 12px solid#f2f2f2;
+        border-left: 12px solid#f2f2f2;
+    }
+    .big_news_photo3{
+        border-left: 12px solid#f2f2f2;
+    }
+    .big_news{
+        height: 694px;
+    }
+    .Testing_box{
+        padding-top: 60px;
+    }
+
+}
+/*>=1200px*/
+@media screen and (min-width: 1200px){
+    .head_photo_big{
+        height: 905px;
+    }
+    .head_photo_wz_head{
+        display: block;
+    }
+    .head_photo_wz_box{
+        display: block;
+    }
+    .small_nav{
+        display: none;
+    }
+    .big_model_introduce1{
+        height: 285px;
+    }
+    .big_model_introduce1_photo{
+        height: 199px;
+    }
+    .big_model_big_photo{
+        height: 365px;
+    }
+    .big_model_introduce{
+        height: 767px;
+    }
+    .big_model_introduce{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .big_news_box{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .big_news_photo_photo_wz1{
+    }
+    .big_news_photo1{
+       border-right: 12px solid#f2f2f2;
+    }
+    .big_news_photo2{
+        border-right: 12px solid#f2f2f2;
+        border-left: 12px solid#f2f2f2;
+    }
+    .big_news_photo3{
+        border-left: 12px solid#f2f2f2;
+    }
+    .big_news{
+        height: 694px;
+    }
+    .Testing_box{
+        padding-top: 60px;
+    }
+}

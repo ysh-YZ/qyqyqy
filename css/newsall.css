@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.head_photo_wz_head1{
+    width: 100%;
+    height: 64px;
+    background: #0070c9;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.head_photo_wz_head_wz1{
+    width: 119px;
+    height: 27px;
+    font-size: 26px;
+    color: #ffffff;
+    position: absolute;
+    top:12px;
+
+}
+
+.head_photo_wz_head_wz2{
+    width: 50px;
+    height: 50px;
+    /*background: #b3d4fc;*/
+    font-size: 26px;
+    color: #ffffff;
+    position: absolute;
+    right: 0px;
+    top:0px;
+    padding-left: 12px;
+    padding-top: 6px;
+    /*padding-top: 12px;*/
+}
+.head_photo_wz_head_wz2:hover{
+    color: #595552;
+}
+.head_nav_box{
+    width: 100%;
+    height: 80px;
+    background: #f4f4f4;
+    padding-top: 30px;
+    padding-left: 18px;
+    font-size: 12px;
+}
+.head_nav_nav_box{
+    width: 100%;
+    height: 20px;
+    /*background: #f4f4f4;*/
+    color: #000000;
+}
+.head_nav_nav_box a{
+    color: #000000;
+}
+.newsall_big_box{
+    width: 1500px;
+    height: 1454px;
+    /*background: #ffc299;*/
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.product_big_head_nav_box{
+    width: 1130px;
+    height: 86px;
+    /*background: #3b7107;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product_big_head_nav_left_box{
+    width: 370px;
+    height: 56px;
+    /*background: #ffc299;*/
+}
+.product_big_head_nav_left_box span:nth-child(1){
+    display: block;
+    font-size: 22px;
+    color: black;
+}
+.product_big_head_nav_left_box span:nth-child(2){
+    display: block;
+    font-size: 10px;
+    color: #a5a5a5;
+}
+.product_big_head_nav_right_box{
+    width: 753px;
+    height: 34px;
+    /*background: #0ff31a;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+
+}
+.product_big_head_nav_right_box li{
+    width: 90px;
+    height: 32px;
+    background: #686868;
+
+}
+.product_big_head_nav_right_box li:nth-child(2),.product_big_head_nav_right_box li:nth-child(3){
+    background: #888888;
+}
+.product_big_head_nav_right_box li:nth-child(2):hover{
+    background: #686868;
+}
+.product_big_head_nav_right_box li:nth-child(3):hover{
+    background: #686868;
+}
+.product_big_head_nav_right_box li:nth-child(1),.product_big_head_nav_right_box li:nth-child(2){
+    margin-right: 10px;
+}
+.product_big_head_nav_right_box li a{
+    display: block;
+    width: 90px;
+    height: 32px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 32px;
+    color: #ffffff;
+
+}
+.newsall_left_in_box{
+    width: 1130px;
+    height: 1368px;
+    /*background: #0ff31a;*/
+}
+.newsall_left_in_box li{
+    width: 1127px;
+    height: 147px;
+    /*background: #ff4045;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+.newsall_left_in_left_box{
+    display: block;
+    width: 190px;
+    height: 123px;
+    /*background: #b0b0b0;*/
+}
+.newsall_left_photo1{
+    width: 160px;
+    height: 100px;
+    /*background: #ffc299;*/
+    background: url('../img/飞机1.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.newsall_left_photo2{
+    width: 160px;
+    height: 100px;
+    /*background: #ffc299;*/
+    background: url('../img/飞机2.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.newsall_left_photo3{
+    width: 160px;
+    height: 100px;
+    /*background: #ffc299;*/
+    background: url('../img/飞机3.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.newsall_left_photo4{
+    width: 160px;
+    height: 100px;
+    /*background: #ffc299;*/
+    background: url('../img/飞机4.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.newsall_left_photo5{
+    width: 160px;
+    height: 100px;
+    /*background: #ffc299;*/
+    background: url('../img/飞机5.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.newsall_left_photo6{
+    width: 160px;
+    height: 100px;
+    /*background: #ffc299;*/
+    background: url('../img/飞机6.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.newsall_left_photo7{
+    width: 160px;
+    height: 100px;
+    /*background: #ffc299;*/
+    background: url('../img/飞机6.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.newsall_left_photo8{
+    width: 160px;
+    height: 100px;
+    /*background: #ffc299;*/
+    background: url('../img/飞机3.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.newsall_left_in_right_box{
+    width: 927px;
+    height: 123px;
+    /*background: #ffac32;*/
+}
+.newsall_left_in_right_wz_box{
+    display: block;
+    width: 922px;
+    height: 27px;
+    /*background: #0ff31a;*/
+    font-size: 15px;
+    color: #000000;
+}
+.newsall_left_in_right_wz1_box{
+    width: 922px;
+    height: 25px;
+    /*background: #b3d4fc;*/
+    font-size: 11px;
+    color: #afafaf;
+}
+.newsall_left_in_right_wz2_box{
+    margin-top: 5px;
+    width: 922px;
+    height: 66px;
+    /*background: #83c44e;*/
+}
+.newsall_left_in_right_wz2_box p{
+    font-size: 11px;
+    color: #939393;
+    line-height: 22px;
+}
+.newsall_right_in_box{
+    width: 370px;
+    height: 1041px;
+    /*background: #ffac32;*/
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: flex-end;*/
+}
+.newsall_right_in_box li{
+    width: 268px;
+    height: 292px;
+    /*background: #ff4045;*/
+    margin-left: 90px;
+}
+.newsall_right_in_box li:hover{
+    transition: all 0.4s;
+    transform: translateY(-2px);
+    box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.1);
+}
+
+.newsall_right_in_box li:nth-child(2),.newsall_right_in_box li:nth-child(3){
+    margin-top: 42px;
+}
+.newsall_right_in_photo_box{
+    display: block;
+    width: 258px;
+    height: 258px;
+    /*background: #b0b0b0;*/
+    margin: 0 auto;
+}
+.newsall_right_in_photo_wz_box{
+    display: block;
+    width: 258px;
+    height: 20px;
+    /*background: #595552;*/
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+}
+.wz_photo {
+    background: url('../img/飞机6.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.wz_photo1 {
+    background: url('../img/飞机5.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.wz_photo2 {
+    background: url('../img/飞机4.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
